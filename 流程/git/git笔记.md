@@ -25,6 +25,25 @@
     git commit --amend -m "新的提交信息"
     ```
 
+## **git push 推送更改**
+
+*   **默认推送**（需已设定上游分支）：
+    ```bash
+    git push
+    ```
+
+*   **指定仓库和分支推送**：
+    ```bash
+    git push origin main
+    ```
+
+*   **初次推送并关联远程分支**（设置 Upstream）：
+    ```bash
+    git push -u origin main
+    ```
+    *   `-u` 选项用于将本地分支与远程分支关联，之后只需输入 `git push` 即可。
+
+
 
 
 
